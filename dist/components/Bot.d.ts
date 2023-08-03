@@ -1,4 +1,5 @@
 import { BotMessageTheme, TextInputTheme, UserMessageTheme } from '@/features/bubble/types';
+import './App.css';
 type messageType = 'apiMessage' | 'userMessage' | 'usermessagewaiting';
 export type MessageType = {
     message: string;
