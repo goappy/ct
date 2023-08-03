@@ -337,6 +337,7 @@ export const Bot = (props: BotProps & { class?: string }) => {
                         defaultValue={userInput()}
                         onSubmit={handleSubmit}
                     />
+                    
             </div>
             {sourcePopupOpen() && <Popup isOpen={sourcePopupOpen()} value={sourcePopupSrc()} onClose={() => setSourcePopupOpen(false)}/>}
         </>
