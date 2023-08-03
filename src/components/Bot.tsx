@@ -31,7 +31,7 @@ export type BotProps = {
     fontSize?: number
 }
 
-const defaultWelcomeMessage = 'Hello, I am the Counselling AI Bot! Search your counselling-related questions below and I will scan our resources for you! '
+const defaultWelcomeMessage = 'Hello, I am the Counselling AI Bot! Search your counselling-related questions below and I will scan our resources for you!'
 
 /*const sourceDocuments = [
     {
