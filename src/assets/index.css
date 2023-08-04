@@ -155,8 +155,10 @@
     font-family: 'Open Sans', -apple-system,
       BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif,
       'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
-    border: 2px solid red;  /* adjust as needed */
-     border-radius: 10px;  /* adjust as needed */
+    
+    /*Custom css*/
+    border: 2px solid #1a76ff;  /* adjust as needed */
+    border-radius: 10px;  /* adjust as needed */
   }
   
   .chatbot-button {
